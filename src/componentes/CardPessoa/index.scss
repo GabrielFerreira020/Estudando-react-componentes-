@@ -1,0 +1,40 @@
+.compCard{
+    background-color:#fff;
+    // display: inline-block;
+
+    margin: 1em ;
+    width: 750px;
+    height: auto;
+
+
+
+
+    img{
+        height: 190px;
+        width: 227px;
+    }
+
+    p{
+        font-size: 18px;
+
+    }
+    .box-Row{
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        text-align: start;
+    }
+
+    .box-Row-Reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1em;
+    }
+
+    .box-Column{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        align-items: center;
+    }
+}
